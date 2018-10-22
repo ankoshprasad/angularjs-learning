@@ -1,0 +1,13 @@
+<h1>Home</h1>
+<p>You're logged in!!</p>
+<div class="col-md-4 critical"><span>{{data.critical[0].name}}</span>-<span>{{data.critical[0].value}}</span></div>
+<div class="col-md-4 major"><span>{{data.major[0].name}}</span>-<span>{{data.major[0].value}}</span></div>
+<div class="col-md-4 minor"><span>{{data.minor[0].name}}</span>-<span>{{data.minor[0].value}}</span></div>
+<p><a href="#/login">Logout</a></a></p>
+<br><br>
+<div><b>Dropown Values from json</b></div>
+<div class="col-md-12">
+    <select ng-options="item.numeroId for item in data1" ng-model="chosen">
+        <option value="" disabled selected>Seleccionar autoelevador</option>
+    </select>
+</div>

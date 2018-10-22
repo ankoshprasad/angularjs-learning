@@ -1,0 +1,32 @@
+{
+	"carsample": [{
+			"id": 0,
+			"carName": "BMW"
+		},
+		{
+			"id": 1,
+			"carName": "Mercedes"
+		},
+		{
+			"id": 2,
+			"carName": "Honda"
+		}
+	],
+	"carname": [{
+			"id": 0,
+			"carType": "Suv",
+			"parentId": 0
+		},
+
+		{
+			"id": 1,
+			"carType": "Sedan",
+			"parentId": 1
+		},
+		{
+			"id": 2,
+			"carType": "Cope",
+			"parentId": 2
+		}
+	]
+}

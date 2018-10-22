@@ -1,0 +1,14 @@
+{
+    "critical": [{
+        "name": "critical",
+        "value": "50"
+    }],
+    "major": [{
+        "name": "major",
+        "value": "40"
+    }],
+    "minor": [{
+        "name": "minor",
+        "value": "20"
+    }]
+}
